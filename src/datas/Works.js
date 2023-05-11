@@ -25,7 +25,7 @@ export const works = [
   {
     name: "CV 2.0",
     category: "Website",
-    id: "02",
+    id: "03",
     description: "Projet de formation | Concevoir un site de type CV 2.0.",
     url: "http://cv-dev.alexisrouet.fr/",
     cover: cv20,
@@ -33,7 +33,7 @@ export const works = [
   {
     name: "Muscles Forts",
     category: "Website",
-    id: "03",
+    id: "04",
     description: "Intégration d’une maquette réalisée par un camarade.",
     url: "https://musclefort.alexisrouet.fr/",
     cover: musclefort,
@@ -41,7 +41,7 @@ export const works = [
   {
     name: "Jake Gryffs",
     category: "Prototype",
-    id: "04",
+    id: "05",
     description: "Concept d’un blog sur la randonnée.",
     url: "",
     cover: blog,
@@ -50,7 +50,7 @@ export const works = [
   {
     name: "Marion Etoile",
     category: "Prototype",
-    id: "05",
+    id: "06",
     description: "Simulation d’un cas concret.",
     url: "",
     cover: marionEtoile,

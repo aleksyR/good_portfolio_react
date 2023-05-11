@@ -4,14 +4,14 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 const Footer = () => {
   return (
     <>
-      <footer className="mt-24 p-4 border-nblack border-t-2 flex justify-between ">
+      <footer className="mt-36 p-4 border-nblack border-t-2 flex justify-between ">
         <div>
           <a
-            className="text-2xl font-semibold"
+            className="text-2xl font-semibold md:text-[2.5em]"
             href="mailto:rouet.alexis99@gmail.com">
             rouet.alexis99@gmail.com
           </a>
-          <p className="font-light mt-2 w-60">
+          <p className="font-thin mt-2 ">
             J’aime imaginer, concevoir et intégrer des interfaces.
           </p>
           <div className=" mt-8 mb-10">
@@ -25,12 +25,14 @@ const Footer = () => {
             </span>
             <ArrowForwardIcon w={18} h={18} />
           </div>
-          <p className="text-sm">
-            Ce site a été crée avec ♡ | Copyright© Alexis Rouet.
-          </p>
-          <a href="#" className="text-sm underline">
-            Mentions légales/Confidentialité
-          </a>
+          <div className="md:flex md:space-x-8">
+            <p className="text-sm font-thin">
+              Ce site a été crée avec ♡ | Copyright© Alexis Rouet.
+            </p>
+            <a href="/legal" className="text-sm font-thin underline">
+              Mentions légales/Confidentialité
+            </a>
+          </div>
         </div>
         <a href="#">
           <ArrowForwardIcon w={40} h={40} className="-rotate-90" />
