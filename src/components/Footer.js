@@ -4,7 +4,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 const Footer = () => {
   return (
     <>
-      <footer className="mt-24 p-4 border-nblack border-t-2 ">
+      <footer className="mt-24 p-4 border-nblack border-t-2 flex justify-between ">
         <div>
           <a
             className="text-2xl font-semibold"
@@ -32,6 +32,9 @@ const Footer = () => {
             Mentions légales/Confidentialité
           </a>
         </div>
+        <a href="#">
+          <ArrowForwardIcon w={40} h={40} className="-rotate-90" />
+        </a>
       </footer>
     </>
   );
