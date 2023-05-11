@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Button = () => {
+const Button = ({ url, text }) => {
   return (
     <>
-      <button className="bg-nblack mt-10 px-8 py-4 rounded-bl-[32px] rounded-tr-[32px] text-nwhite font-medium">
-        <Link to="/portfolio">Voir mes réalisations</Link>
+      <button className=" border-b-2 border-nblack w-[auto] px-2 py-2 uppercase font-semibold">
+        <Link to={url}>{text}</Link>
       </button>
     </>
   );
