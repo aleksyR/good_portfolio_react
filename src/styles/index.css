@@ -27,3 +27,7 @@ strong {
 p {
   line-height: 1.75 !important;
 }
+
+.scroll {
+  background-color: #232321 !important;
+}
